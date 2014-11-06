@@ -10,4 +10,4 @@ markdown: kramdown
 permalink: pretty
 sass:
     style: compressed # nested|expanded|compact|compressed
-    sass_dir: lib
+    sass_dir: css
