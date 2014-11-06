@@ -8,3 +8,6 @@ url: "http://yourdomain.com"
 # Build settings
 markdown: kramdown
 permalink: pretty
+sass:
+    style: compressed # nested|expanded|compact|compressed
+    sass_dir: lib
