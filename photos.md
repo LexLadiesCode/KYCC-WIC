@@ -9,7 +9,7 @@ permalink: /photos/
 		<td class="auto-style4">
 		<img alt="Registration" height="200" src="./Photos_files/women_01.jpg" width="250"></td>
 		<td class="auto-style4">
-		<img alt="Registration_2" height="200" src="./Photos_files/women_02.jpg" width="250"></td>
+		<img alt="Registration_2" height="200" src="/images/women_02.jpg" width="250"></td>
 	</tr>
 	<tr>
 		<td class="auto-style4">&nbsp;</td>
