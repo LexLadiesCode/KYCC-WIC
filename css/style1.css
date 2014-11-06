@@ -114,3 +114,53 @@ a:hover {
 .style_italic {
 	font-style: italic;
 }
+.auto-style1 {
+	text-align: center;
+}
+.auto-style2 {
+	text-align: left;
+}
+.auto-style3 {
+	text-indent: 0pt;
+	line-height: 114%;
+	text-align: left;
+	font-family: Arial;
+	font-size: 8.8888pt;
+	color: black;
+	margin-right: 0pt;
+	margin-top: 0pt;
+	margin-bottom: 9.0pt;
+}
+.auto-style4 {
+	font-size: medium;
+}
+.auto-style5 {
+	text-indent: 0pt;
+	line-height: 114%;
+	text-align: left;
+	font-family: Arial;
+	font-size: xx-large;
+	color: black;
+	margin-right: 0pt;
+	margin-top: 0pt;
+	margin-bottom: 9.0pt;
+}
+.auto-style6 {
+	text-indent: 0pt;
+	line-height: 114%;
+	text-align: left;
+	font-family: Arial;
+	font-size: medium;
+	color: black;
+	margin-right: 0pt;
+	margin-top: 0pt;
+	margin-bottom: 9.0pt;
+}
+.auto-style1 {
+	font-size: x-large;
+	font-weight: normal;
+}
+.auto-style3 {
+	font-weight: bold;
+	font-size: xx-large;
+}
