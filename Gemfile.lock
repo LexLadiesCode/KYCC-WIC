@@ -62,7 +62,6 @@ GEM
       hitimes
     toml (0.1.2)
       parslet (~> 1.5.0)
-    wdm (0.1.0)
     yajl-ruby (1.1.0)
 
 PLATFORMS
@@ -72,4 +71,3 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 2.4.0)
   kramdown (~> 1.5.0)
-  wdm (>= 0.1.0)
