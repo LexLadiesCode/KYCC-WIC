@@ -5,6 +5,15 @@
 // import bootstrap
 @import "bootstrap";
 
+// Color Scheme
+
+$dark-purple: #45145a;
+$electric-purple: #7500a5;
+$light-purple: #7322c8;
+$dark-blue: #3860e0;
+$light-blue: #5bacee;
+$charcoal: #01080F;
+
 body {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   font-size: 0.8em;
@@ -13,43 +22,26 @@ body {
   background-color: #BCDAE7;
 }
 #container {
-  width: 620px;
-  margin: 0 auto;
-  padding: 10px;
-  border-right: 2px solid #725972;
-  border-bottom: 2px solid #725972;
-  border-left: 2px solid #725972;
   background-color: #fff;
 }
 #masthead {
+  background-image: url("../images/hero_1.jpg");
+  padding-bottom: 40px;
   text-align: center;
-  width: 600px;
-  padding: 10px;
-  border: 1px dotted #725972;
-  background-image: url("../images/masthead.gif");
-  background-repeat: repeat;
-  background-attachment: scroll;
+  width: 100%;
 }
 #navigation {
   position: relative;
   float: left;
   width: 139px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border-right: 1px dotted #725972;
 }
 #content {
-  float: left;
-  width: 550px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 10px;
+  background-color: white;
 }
 #footer {
   text-align: center;
   clear: both;
-  width: 618px;
-  border: 1px dotted #d8bfd8;
+  width: 100%;
 }
 /* Masthead Styles */
 #masthead h1 {
