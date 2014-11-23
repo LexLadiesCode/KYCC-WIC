@@ -39,7 +39,7 @@ body {
 #banner {
   background-color: $charcoal;
   color: white;
-  padding: 10px 0;
+  padding: 20px 0;
   text-align: center;
 }
 
@@ -90,11 +90,15 @@ body {
 }
 /* Content Styles */
 #content h1,h2,{
-  color: #503750;
+  color: $dark-purple;
   text-align: center;
 }
-#content h3,h4,h5,h6 {
-  color: #503750;
+#content h3,h4,h5,h6, {
+  color: $dark-purple;
+}
+#content p {
+  color: $dark-purple;
+  font-size: 16px;
 }
 #content img {
   padding: 5px;
@@ -123,7 +127,7 @@ a:hover {
 
 
 /*Banner Styles */
-#banner h3 {
+#banner h3,h4,h5,h6 {
   color: white;
 }
 
@@ -142,8 +146,11 @@ a:hover {
   border-radius: 0;
   background-color: $light-purple;
   color: white;
-  display: block;
   margin: auto;
+}
+
+a.btn {
+  text-decoration: none;
 }
 
 .vertical-align {
