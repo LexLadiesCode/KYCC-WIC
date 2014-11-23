@@ -47,11 +47,6 @@ body {
   background-color: white;
 }
 
-#footer {
-  text-align: center;
-  clear: both;
-  width: 100%;
-}
 /* Masthead Styles */
 #masthead h1 {
   color: white;
@@ -105,16 +100,22 @@ body {
   border: 1px solid #402640;
 }
 /* Footer Styles */
-#footer p {
-  color: #808080;
-}
-#footer a {
-  color: #503750;
-  text-decoration: underline;
-}
-#footer a:hover {
-  color: #402640;
-  text-decoration: none;
+
+#footer {
+  text-align: center;
+  clear: both;
+  width: 100%;
+  p {
+    color: #808080;
+  }
+  a {
+    color: #503750;
+    text-decoration: underline;
+  }
+  a:hover {
+    color: #402640;
+    text-decoration: none;
+  }
 }
 a {
   color: #402640;
