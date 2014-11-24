@@ -47,11 +47,7 @@ body {
   background-color: white;
 }
 
-#footer {
-  text-align: center;
-  clear: both;
-  width: 100%;
-}
+
 /* Masthead Styles */
 #masthead h1 {
   color: white;
@@ -105,16 +101,29 @@ body {
   border: 1px solid #402640;
 }
 /* Footer Styles */
-#footer p {
-  color: #808080;
-}
-a {
-  color: #402640;
-  text-decoration: underline;
-}
-a:hover {
-  color: #dfb8df;
-  text-decoration: underline;
+#footer {
+  margin-top: 50px;
+  text-align: center;
+  clear: both;
+  width: 100%;
+  #footer-top {
+    height: 150px;
+    background-color: $electric-purple;
+  }
+  #footer-bottom {
+    height: 150px;
+    background-color: $dark-purple;
+  }
+  p {
+    a {
+      color: #402640;
+      text-decoration: underline;
+    }
+    a:hover {
+      color: #dfb8df;
+      text-decoration: underline;
+    }
+  }
 }
 
 
