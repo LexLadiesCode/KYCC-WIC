@@ -1,10 +1,11 @@
 ---
-layout: page
-title: Hotel
+layout: post
+title: Hotel Information
 permalink: /hotel/
 ---
 
-<h2>Hotel Information</h2>
-<p>The hotel information for the Celebration is not yet available.</p>
-<h3>Hotel Information</h3>
-<h3>Room Details:</h3>
+<div class="col-md-12">
+<h3>Comfort Inn and Suites</h3>
+<p>2400 Buena Vista Road</p>
+<p>Lexington, KY 40505</p>
+</div>

@@ -3,6 +3,8 @@ layout: page
 title: Photos
 permalink: /photos/
 ---
+<div class="container">
+  <div class="col-md-12">
 <h2>Photos from the Conference</h2>
 <table style="width: 100%">
 	<tbody><tr>
@@ -74,3 +76,5 @@ permalink: /photos/
 		<img alt="Basha Roberts" height="200" src="/images/women_14.jpg" width="250"></td>
 	</tr>
 </tbody></table>
+  </div>
+</div>

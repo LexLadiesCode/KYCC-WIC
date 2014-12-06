@@ -1,9 +1,10 @@
 ---
-layout: page
+layout: post
 title: Frequently Asked Questions
 permalink: /frequently-asked-questions/
 ---
 
+<div class="col-md-12">
 <p><strong>Q: When will more information be available?<br>
 </strong>A: We hope to update the site monthly as planning progresses.&nbsp;
 Please contact us if you have questions.</p>
@@ -19,3 +20,4 @@ the special accommodations area of the registration form.</p>
 <p>&nbsp;</p>
 
 
+</div>
