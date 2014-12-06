@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Frequently Asked Questions
-permalink: /frequently-asked-questions/
+permalink: /faqs/
 ---
 
 <div class="col-md-12">
