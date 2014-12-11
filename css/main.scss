@@ -30,6 +30,10 @@ $charcoal: #01080F;
   width: 139px;
 }
 
+.navbar-inverse #navbar .navbar-nav>li>a {
+  color: white;
+}
+
 #banner {
   background-color: $charcoal;
   color: white;
