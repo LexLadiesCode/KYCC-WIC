@@ -10,7 +10,7 @@ permalink: /hotel/
     <p>2400 Buena Vista Road</p>
     <p>Lexington, KY 40505</p>
     <p>(859) 293-6113</p>
-    <a href="http://www.comfortinn.com/hotel-lexington-kentucky-KY270"><img alt="hotel" height="275" src="/images/hotel.jpg"></a>
+    <a href="http://www.comfortinn.com/hotel-lexington-kentucky-KY270"><img alt="hotel" height="275" src="{{ "/images/hotel.jpg" | prepend: site.baseurl }}"></a>
     </p>
   </div>
   <div class="col-md-6">
