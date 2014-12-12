@@ -30,6 +30,29 @@ $charcoal: #01080F;
   width: 139px;
 }
 
+#top-navbar {
+  text-align: center;
+}
+
+.navbar-inverse #navbar .navbar-nav>li>a {
+  color: white;
+
+  &:hover, &:focus {
+    background-color: $electric-purple;
+  }
+}
+
+@media (min-width: 768px) {
+  #navbar .navbar-nav {
+    width: 100%;
+
+    li {
+      float: none;
+      display: inline-block;
+    }
+  }
+}
+
 #banner {
   background-color: $charcoal;
   color: white;
