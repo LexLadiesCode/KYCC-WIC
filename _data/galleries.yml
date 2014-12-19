@@ -1,0 +1,46 @@
+- id: gallery1
+  description: KYCC Conference 2013
+  imagefolder: /images/2013
+  images: 
+  - name: women_01.jpg
+    thumb: women_01.jpg
+    text: KYCC 2013 1
+  - name: women_02.jpg
+    thumb: women_02.jpg
+    text: KYCC 2013 2
+  - name: women_03.jpg
+    thumb: women_03.jpg
+    text: KYCC 2013 3
+  - name: women_04.jpg
+    thumb: women_04.jpg
+    text: KYCC 2013 04
+  - name: women_05.jpg
+    thumb: women_05.jpg
+    text: KYCC 2013 05
+  - name: women_06.jpg
+    thumb: women_06.jpg
+    text: KYCC 2013 06
+  - name: women_07.jpg
+    thumb: women_07.jpg
+    text: KYCC 2013 07
+  - name: women_08.jpg
+    thumb: women_08.jpg
+    text: KYCC 2013 08
+  - name: women_09.jpg
+    thumb: women_09.jpg
+    text: KYCC 2013 09
+  - name: women_10.jpg
+    thumb: women_10.jpg
+    text: KYCC 2013 10
+  - name: women_11.jpg
+    thumb: women_11.jpg
+    text: KYCC 2013 11
+  - name: women_12.jpg
+    thumb: women_12.jpg
+    text: KYCC 2013 12
+  - name: women_13.jpg
+    thumb: women_13.jpg
+    text: KYCC 2013 13
+  - name: women_14.jpg
+    thumb: women_14.jpg
+    text: KYCC 2013 14

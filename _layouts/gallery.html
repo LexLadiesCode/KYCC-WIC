@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+{% for gallery in site.data.galleries %}
+  {% if gallery.id == page.galleryid %}
+    <h1>{{ gallery.description }}</h1>
+    {% for image in gallery.images %}
+        <a href="{{ gallery.imagefolder }}/{{ image.name }}" data-lightbox="{{ gallery.id }}" title="{{ image.text }}">
+          <img src="{{ gallery.imagefolder }}/{{ image.thumb }}" class="thumb">
+        </a>
+    {% endfor %}
+  {% endif %}
+{% endfor %}
