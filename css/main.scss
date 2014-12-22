@@ -133,6 +133,19 @@ $charcoal: #01080F;
   #footer-bottom {
     height: 150px;
     background-color: $dark-purple;
+    position: relative;
+    .byline {
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      padding: 20px;
+      text-align: center;
+      color: $white;
+      font-size: .8em;
+      a {
+        color: $white;
+      }
+    }
   }
   p {
     a {
