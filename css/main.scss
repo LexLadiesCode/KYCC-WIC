@@ -41,6 +41,9 @@ $charcoal: #01080F;
   background-color: white;
   img.thumb {
     border: none;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
     padding: 5px;
   }
 }
