@@ -1,0 +1,90 @@
+date: 2015-04-10
+readable-date: Friday, April 10, 2015
+times:
+  - start: 10:00am
+    end: 11:00am
+    sessions:
+      - title: Setup for Vendor Fair, Job Fair, Transfer Fair
+        location: TBA
+    
+  - start: 11:00am
+    end: 1:00pm
+    sessions:
+      - title: Vendor Fair, Job Fair, Transfer Fair
+        location: TBA
+    
+  - start: 12:00pm
+    end: 1:00pm
+    sessions:
+      - title: Registration
+        location: Lobby First Floor
+    
+  - start: 1:00pm
+    end: 1:30pm
+    sessions:
+      - title: Welcome
+        location: Large Room First Floor
+        speakers:
+          - name: Melanie Williamson
+            title: Associate Professor
+            department: Computer & Information Technologies
+            company: Bluegrass Community and Technical College
+          - name: Cindy Tucker
+            title: Associate Professor
+            department: Computer & Information Technologies
+            company: Bluegrass Community and Technical College
+  
+  - start: 1:30pm
+    end: 2:15pm
+    sessions:
+      - title: Trustworthy Computing
+        location: Large Room First Floor
+        speakers:
+          - name: TBA
+            company: Microsoft Research
+  
+  - start: 2:30pm
+    end: 3:15pm
+    sessions:
+      - title: Gender Issues in the Workplace
+        location: Large Room First Floor
+    
+  - start: 3:00pm
+    end: 3:45pm
+    sessions:
+      - title: Building a Community
+      - title: Imposter Syndrome Panel
+      - title: University/Business Track Session
+      
+  - start: 4:00pm
+    end: 4:45pm
+    sessions:
+      - title: Community College/Business Track Session
+      - title: Women in Computing Disciplines
+      - title: University/Business Track Session
+      
+  - start: 4:45pm
+    end: 6:00pm
+    sessions:
+      - title: Vendor Fair, Job Fair, Transfer Fair (Continued)
+        sub-title: Student Posters Available for Viewing/Judging
+  
+  - start: 6:00pm
+    end: 7:0pm
+    sessions:
+      - title: Dinner
+        sub-title: "Catered by Joe Bologna's"
+        
+  - start: 7:00pm
+    end: 8:00pm
+    sessions:
+      - title: "Women in Computing: Voices in Video"
+        location: Large Room First Floor
+        speakers:
+          - name: Stephanie Fitch
+            title: Instructor
+            department: Film Studies
+            company: Bluegrass Community and Technical College
+            
+
+      
