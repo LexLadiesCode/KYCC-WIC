@@ -101,6 +101,55 @@ $charcoal: #01080F;
   text-decoration: none;
   background-color: #fff;
 }
+#agenda {
+  .row {
+    hr {
+      margin-bottom: 0px;
+    }
+    #time {
+      background-color: #000;
+      p {
+        color: #fff;
+        margin-bottom: 0px;
+        line-height: 28px;
+      }
+    }
+    .col-md-10 {
+      border-top: 28px solid #000;
+      .row {
+        border-left: 0px;
+        .col-md-4 {
+          &:nth-child(1) {
+            border-top: 10px solid $light-blue;
+            background-color: rgba($light-blue, .1);
+            &::before {
+              content: "Faculty/business Track";
+              color: $light-blue;
+            }
+          }
+          &:nth-child(2) {
+            border-top: 10px solid $electric-purple;
+            background-color: rgba($electric-purple, .05);
+            &::before {
+              content: "Student Track";
+              color: $electric-purple;
+            }
+
+          }
+          &:nth-child(3) {
+            border-top: 10px solid $dark-purple;
+            background-color: rgba($dark-purple, .1);
+            &::before {
+              content: "University Track";
+              color: $dark-purple;
+            }
+
+          }
+        }
+      }
+    }
+  }
+}
 /* Content Styles */
 #content h1,h2,{
   color: $dark-purple;

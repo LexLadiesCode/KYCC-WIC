@@ -4,15 +4,23 @@ title: Agenda
 permalink: /agenda/
 ---
 
-<div class="col-md-12">
 
+<div id="agenda" class="col-md-12">
 {% for agenda_hash in site.data.agenda %}
   {% assign agenda = agenda_hash[1] %}
-  <h3>{{ agenda.readable-date }}</h3>
+  
+  <div class="row">
+    <hr />
+    
+    <div class="col-md-12">
+      <h3>{{ agenda.readable-date }}</h3>
+    </div>
+  </div>
   
   {% for times in agenda.times %}
-    <div class="row" style="border-top:solid 1px #f1f1f1;">
-      <div class="col-md-2">
+    <div class="row">
+    <hr />
+      <div id="time" class="col-md-2">
         <p>{{ times.start }} to {{ times.end }}</p>
       </div>
       <div class="col-md-10">
@@ -38,7 +46,5 @@ permalink: /agenda/
   {% endfor %}
 
 {% endfor %}
-
-
 </div>
 
