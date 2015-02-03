@@ -35,7 +35,7 @@ permalink: /agenda/
                 </p>
                 {% for speaker in session.speakers %}
                   <p>
-                    {{ speaker.name }}
+                    {{ speaker.name }}{% if speaker.title %}, {{ speaker.title }}{% endif %}{% if speaker.department %}, {{ speaker.department }}{% endif %}{% if speaker.company %}, {{ speaker.company }}{% endif %}
                   </p>
                 {% endfor %}
               </div>
