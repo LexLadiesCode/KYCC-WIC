@@ -29,10 +29,7 @@ permalink: /agenda/
           {% assign size = 12 | divided_by: count %}
           {% for session in times.sessions %}
               <div class="col-md-{{ size }}">
-                <h3>{{ session.title }}</h3>
-                <p>
-                  {{ session.location }}
-                </p>
+                <h3>{{ session.title }}</h3>                
                 {% for speaker in session.speakers %}
                   <p>
                     {{ speaker.name }}{% if speaker.title %}, {{ speaker.title }}{% endif %}{% if speaker.department %}, {{ speaker.department }}{% endif %}{% if speaker.company %}, {{ speaker.company }}{% endif %}
