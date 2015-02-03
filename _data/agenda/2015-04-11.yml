@@ -1,2 +1,47 @@
 date: 2015-04-11
 readable-date: Saturday, April 11, 2015
+times:
+  - start: 8:30am
+    end: 9:00am
+    sessions:
+      - title: Breakfast and Greetings, Special Coffee Kiosk, Welcome
+        location: Large Room First Floor
+        speakers:
+          - name: Melanie Williamson
+            title: Associate Professor
+            department: Computer & Information Technologies
+            company: Bluegrass Community and Technical College
+          - name: Cindy Tucker
+            title: Associate Professor
+            department: Computer & Information Technologies
+            company: Bluegrass Community and Technical College
+            
+  - start: 9:15am
+    end: 10:00am
+    sessions:
+      - title: Topic TBA
+        location: Large Room First Floor
+      
+  - start: 10:00am
+    end: 10:30am
+    sessions:
+      - title: Session planned for faculty/business
+      - title: Session planned for students
+      - title: Session planned by Maureen Doyle
+      
+  - start: 10:30am
+    end: 11:00am
+    sessions:
+      - title: Session planned for faculty/business
+      - title: Session planned for students
+      - title: Session planned by Maureen Doyle
+      
+  - start: 11:15am
+    end: 12:00pm
+    sessions:
+      - title: Keynote Topic TBA
+      
+  - start: 12:15pm
+    end: 1:00pm
+    sessions:
+      - title: Lunch and Celebration Closing, Fun Presentation During Lunch
