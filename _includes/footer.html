@@ -3,7 +3,7 @@
     <div id="footer-top">
       
     {% for post in site.categories.sponsors reversed %}
-      <img src="{{ "/images/sponsors/" | prepend: site.baseurl }}{{post.logo_filename}}" width="150"/>
+      <div><img src="{{ "/images/sponsors/" | prepend: site.baseurl }}{{post.logo_filename}}" width="150"/></div>
     {% endfor %}
     </div>
     <div id="footer-bottom">

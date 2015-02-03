@@ -175,9 +175,12 @@ $charcoal: #01080F;
   #footer-top {
     min-height: 150px;
     background-color: $electric-purple;
-    img {
-      padding: 20px;
-    }
+    div {  
+      display: inline-block;
+      img {
+        padding: 20px;      
+      }
+    }  
   }
   #footer-bottom {
     height: 150px;
