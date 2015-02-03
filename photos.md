@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Photos 2012
+title: Photos
 permalink: /photos/
 ---
 <div class="container">
