@@ -101,6 +101,15 @@ $charcoal: #01080F;
   text-decoration: none;
   background-color: #fff;
 }
+#news {
+  h1, h2, h3, h4 {
+    color: $dark-purple;
+  }
+  h5.subheader {
+    color: $white;
+    background-color: $dark-purple;
+  }
+}
 #agenda {
   .row {
     hr {
