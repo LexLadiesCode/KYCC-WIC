@@ -1,8 +1,15 @@
   </div><!--/#content-->
   <div id="footer">
     <div id="footer-top">
+      
+    {% for post in site.categories.sponsors reversed %}
+      <div><img src="{{ "/images/sponsors/" | prepend: site.baseurl }}{{post.logo_filename}}"width="150px"/></div>
+    {% endfor %}
     </div>
     <div id="footer-bottom">
+      <div class="byline">
+        Site by <a href="http://lexladiescode.org">LexLadiesCode <img src="{{ "../images/sponsors/lexladiescode.png" | prepend: site.baseurl }}" width="15px"></a><br />  Registration by Thomas Papanicolaou, BCTC
+      </div>
     </div>
   </div>
 </div><!--/#container-->

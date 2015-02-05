@@ -1,0 +1,77 @@
+date: 2015-04-11
+readable-date: Saturday, April 11, 2015
+times:
+  - start: 8:30am
+    end: 9:00am
+    sessions:
+      - title: Breakfast and Greetings, Special Coffee Kiosk, Welcome
+        location: TBA
+        speakers:
+          - name: Melanie Williamson
+            title: Associate Professor
+            department: Computer & Information Technologies
+            company: Bluegrass Community and Technical College
+          - name: Cindy Tucker
+            title: Associate Professor
+            department: Computer & Information Technologies
+            company: Bluegrass Community and Technical College
+            
+  - start: 9:15am
+    end: 10:00am
+    sessions:
+      - title: "Women in Computing: Tranforming the Future"
+        location: TBA
+        speakers:
+          - name: Dr. Elizabeth Hawthorne
+            title: Chair
+            company: ACM Committee for Computing Education in Community Colleges
+  - start: 10:00am
+    end: 10:35am
+    sessions:
+      - title: Building a Community of Women in Computing
+        location: TBA
+        speakers:
+          - name: LexLadiesCode.org
+      - title: TBA
+        location: TBA
+      - title: Participating in Tech Competitions
+        speakers:
+          - name: Teresa Riley
+            title: Lecturer
+            department: Computer Science
+            company: Northern Kentucky University     
+  - start: 10:40am
+    end: 11:10am
+    sessions:
+       - title: NASA Kentucky - A Faculty Perspective
+         location: TBA
+         speakers:
+           - name: Faculty
+             company: Bluegrass Community and Technical College
+       - title: NASA Kentucky - A Student Perspective
+         location: TBA
+         speakers:
+           - name: Students
+             company: Bluegrass Community and Technical College
+       - title: Research Experiences for Undergraduates
+         speakers:
+           - name: Dr. Maureen Doyle
+             title: Associate Professor 
+             department: Computer Science
+             company: Northern Kentucky University   
+  - start: 11:15am
+    end: 12:00pm
+    sessions:
+      - title: "Women in Computing: Voices in Video"
+        location: TBA
+        speakers:
+          - name: Stephanie Fitch
+            title: Coordinator and Assistant Professor
+            department: Film Studies
+            company: Bluegrass Community and Technical College     
+  - start: 12:15pm
+    end: 1:00pm
+    sessions:
+      - title: Lunch and Celebration Closing
+        subtitle: Presentations and Awards
+        location: TBA

@@ -1,4 +1,5 @@
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+
+<nav id="top-navbar" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
   <!--<div class="container">-->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -7,7 +8,6 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/">KYCC-WIC</a>
     </div>
     <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
@@ -17,7 +17,7 @@
         <li><a href="/hotel/">Hotel</a></li>
         <li><a href="/sponsors/">Sponsors</a></li>
         <li><a href="/photos/">2013 Conference Photos</a></li>
-        <li><a href="/faqs/">FAQ</a></li>
+        <li><a href="/frequently-asked-questions/">FAQ</a></li>
         <li><a href="/contact/">Contact</a></li>
       </ul>
     </div><!--/.nav-collapse -->

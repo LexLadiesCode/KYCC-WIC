@@ -1,6 +1,6 @@
 ---
 layout: gallery
-title: KYCC Conference 2013
+title: Photos
 permalink: /photos/
 galleryid: gallery1
 ---
