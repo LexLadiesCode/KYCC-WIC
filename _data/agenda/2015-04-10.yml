@@ -1,0 +1,114 @@
+date: 2015-04-10
+readable-date: Friday, April 10, 2015
+times:
+  - start: 10:00am
+    end: 11:00am
+    sessions:
+      - title: Setup for Vendor Fair, Job Fair, Transfer Fair
+        location: TBA
+    
+  - start: 11:00am
+    end: 1:00pm
+    sessions:
+      - title: Vendor Fair, Job Fair, Transfer Fair
+        subtitle: Recording "Voices in Video"
+        location: TBA
+    
+  - start: 12:00pm
+    end: 1:00pm
+    sessions:
+      - title: Registration
+        location: TBA
+    
+  - start: 1:00pm
+    end: 1:30pm
+    sessions:
+      - title: Welcome to KYCC-WiC
+        location: TBA
+        speakers:
+          - name: Melanie Williamson
+            title: Associate Professor
+            department: Computer & Information Technologies
+            company: Bluegrass Community and Technical College
+          - name: Cindy Tucker
+            title: Associate Professor
+            department: Computer & Information Technologies
+            company: Bluegrass Community and Technical College
+  
+  - start: 1:30pm
+    end: 2:15pm
+    sessions:
+      - title: A Journey into Technology Policy Research
+        location: TBA
+        speakers: 
+          - name: Sharon Gillette
+            title: Principal Networking Policy Strategist
+            company: Microsoft Research
+  
+  - start: 2:30pm
+    end: 3:15pm
+    sessions:
+      - title: Gender Issues in the Workplace
+        location: TBA
+        speakers:
+        - name: Dr. Rama Lohani-Chase
+          title: Professor of Psychology/Sociology
+          company: Union County College, NJ 
+    
+  - start: 3:00pm
+    end: 3:45pm
+    sessions:
+      - title: Imposter Syndrome Panel
+        location: TBA
+        speakers:
+          - name: Dr. Rama Lohani-Chase
+            title: Professor
+            department: Psychology/Sociology
+            company: Union County College, NJ 
+          - name: Dr. Elizabeth Hawthorne
+            title: Chair
+            company: ACM Committee for Computing Education in Community Colleges
+          - name: Ashley Wilson
+            title: Co-founder
+            company: LexLadiesCode.org
+          - name: Amy Smereck
+            title: Director of Marketing
+            company: DMD Data Solutions
+      
+  - start: 4:00pm
+    end: 4:45pm
+    sessions:
+       - title: TBA
+         location: TBA
+       - title: The Gaming Industry in Kentucky
+         locaton: TBA
+         speakers:
+           - name: Tim Birch
+             title: Assistant Professor
+             department: Information Management Design
+             company: Bluegrass Community and Technical College
+       - title: Attending the National Grace Hopper Conference
+         locaton: TBA
+         speakers:
+           - name: NKU Students
+             company: Northern Kentucky University     
+  - start: 4:45pm
+    end: 6:00pm
+    sessions:
+      - title: Vendor Fair, Job Fair, Transfer Fair (Continued)
+        sub-title: Student Posters Available for Viewing/Judging
+        sub-title: Recording "Voices in Video"
+  - start: 6:00pm
+    end: 7:0pm
+    sessions:
+      - title: Dinner
+        sub-title: "Catered by Joe Bologna's"
+        location: TBA        
+  - start: 7:00pm
+    end: 8:00pm
+    sessions:
+      - title: Global Game Jam (tentative)
+        location: TBA
+      - title: Lightening Talks - Faculty Projects, Presentations, and Resources
+        location: TBA
+     

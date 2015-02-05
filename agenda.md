@@ -4,17 +4,44 @@ title: Agenda
 permalink: /agenda/
 ---
 
-<div class="col-md-12">
 
-<h3>Friday, April 10, 2015</h3>
+<div id="agenda" class="col-md-12">
+{% for agenda_hash in site.data.agenda %}
+  {% assign agenda = agenda_hash[1] %}
+  
+  <div class="row">
+    <hr />
+    
+    <div class="col-md-12">
+      <h3>{{ agenda.readable-date }}</h3>
+    </div>
+  </div>
+  
+  {% for times in agenda.times %}
+    <div class="row">
+    <hr />
+      <div id="time" class="col-md-2">
+        <p>{{ times.start }} to {{ times.end }}</p>
+      </div>
+      <div class="col-md-10">
+        <div class="row">
+          {% assign count = times.sessions | size %}
+          {% assign size = 12 | divided_by: count %}
+          {% for session in times.sessions %}
+              <div class="col-md-{{ size }}">
+                <h3>{{ session.title }}</h3>                
+                {% for speaker in session.speakers %}
+                  <p>
+                    {{ speaker.name }}{% if speaker.title %}, {{ speaker.title }}{% endif %}{% if speaker.department %}, {{ speaker.department }}{% endif %}{% if speaker.company %}, {{ speaker.company }}{% endif %}
+                  </p>
+                {% endfor %}
+              </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
 
-<h3>Saturday, April 11, 2015</h3>
-
-<h2>Index</h2>
-
-<h3>Faculty and Community Leader Sessions</h3>
-
-<h3>Student Sessions</h3>
-
+{% endfor %}
 </div>
 

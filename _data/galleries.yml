@@ -1,5 +1,5 @@
 - id: gallery1
-  description: KYCC Conference 2013
+  description: Photos
   imagefolder: /images/2013
   images: 
   - name: women_01.jpg
