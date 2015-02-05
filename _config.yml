@@ -1,9 +1,8 @@
 # Site settings
 title: Women in Computing Celebration
-email: your-email@domain.com
-description: "KYCC-WIC"
+description: "The 2nd KYCC-WiC Celebration will be held April 10 - 11, 2015 in Lexington, Kentucky."
 baseurl: ""
-url: "http://yourdomain.com"
+url: "http://kycc-wic.com"
 
 # Build settings
 markdown: kramdown
