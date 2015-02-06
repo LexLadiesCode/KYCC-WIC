@@ -108,13 +108,44 @@ $charcoal: #01080F;
   text-decoration: none;
   background-color: #fff;
 }
+#home {
+  > .row {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+#headline {
+}
 #news {
+  background-color: rgba($light-blue, .1);
+  .col-md-4 {
+    border-left: 1px solid $light-blue;
+    &:last-child {
+      border-right: 1px solid $light-blue;
+    }
+  }
   h1, h2, h3, h4 {
     color: $dark-purple;
+    small {
+      display: block;
+      padding-top: 3px;
+      font-size: .5em;
+    }
   }
   h5.subheader {
     color: $white;
     background-color: $dark-purple;
+  }
+}
+#celebration-mission {
+  background-color: $dark-purple;
+  h1, h2, h3, h4 {
+    color: $white;
+  }
+  div {
+    p {
+      color: $white;
+    }
   }
 }
 #agenda {
