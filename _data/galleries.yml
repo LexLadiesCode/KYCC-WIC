@@ -1,6 +1,6 @@
 - id: gallery1
   description: Photos
-  imagefolder: /images/
+  imagefolder: /images/2013
   images: 
   - name: women_01.jpg
     thumb: women_01_thumb.jpg
