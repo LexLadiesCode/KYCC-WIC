@@ -19,7 +19,7 @@ times:
   - start: 9:15am
     end: 10:00am
     sessions:
-      - title: "Women in Computing: Tranforming the Future"
+      - title: "Women in Computing: Transforming the Future"
         location: TBA
         speakers:
           - name: Dr. Elizabeth Hawthorne
