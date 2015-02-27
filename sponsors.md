@@ -14,7 +14,7 @@ permalink: /sponsors/
     <h3>Platinum Level - $2500</h3>
     <ul>
     {% for post in site.categories.sponsors reversed %}
-      {% if post.level contains "platinum" %}
+      {% if post.level contains "platinum" and post.display != false %}
         <li>{{ post.title }}</li>
       {% endif %}
     {% endfor %}
