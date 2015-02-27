@@ -41,7 +41,7 @@ times:
       - title: A Journey into Technology Policy Research
         location: TBA
         speakers: 
-          - name: Sharon Gillette
+          - name: Sharon Gillett
             title: Principal Networking Policy Strategist
             company: Microsoft Research
   
@@ -99,7 +99,7 @@ times:
         sub-title: Student Posters Available for Viewing/Judging
         sub-title: Recording "Voices in Video"
   - start: 6:00pm
-    end: 7:0pm
+    end: 7:00pm
     sessions:
       - title: Dinner
         sub-title: "Catered by Joe Bologna's"
@@ -107,8 +107,11 @@ times:
   - start: 7:00pm
     end: 8:00pm
     sessions:
-      - title: Global Game Jam (tentative)
+      - title: "“Mocktail” Hour for Faculty and Industry: Sharing Ideas and Building Community"
         location: TBA
-      - title: Lightening Talks - Faculty Projects, Presentations, and Resources
+  - start: 7:00pm
+    end: 10:00pm
+    sessions:
+      - title: "You Play It, Now Build It: A Hands-on Interactive Session"
         location: TBA
      
