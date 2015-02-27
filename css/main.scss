@@ -120,6 +120,9 @@ $charcoal: #01080F;
 }
 #news {
   background-color: rgba($light-blue, .1);
+  .row {
+    padding-bottom: 20px;
+  }
   .col-md-4 {
     border-left: 1px solid $light-blue;
     &:last-child {
