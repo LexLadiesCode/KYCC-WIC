@@ -14,7 +14,7 @@ times:
         subtitle: Recording "Voices in Video"
         location: TBA
     
-  - start: 12:00pm
+  - start: 11:30am
     end: 1:00pm
     sessions:
       - title: Registration
@@ -48,15 +48,15 @@ times:
   - start: 2:30pm
     end: 3:15pm
     sessions:
-      - title: Gender Issues in the Workplace
+      - title: "Gender at Work: Authority and Technology"
         location: TBA
         speakers:
         - name: Dr. Rama Lohani-Chase
           title: Professor of Psychology/Sociology
-          company: Union County College, NJ 
+          company: "Union County College, NJ - Sponsored by ACM CCECC"
     
-  - start: 3:00pm
-    end: 3:45pm
+  - start: 3:30pm
+    end: 4:15pm
     sessions:
       - title: Imposter Syndrome Panel
         location: TBA
@@ -67,7 +67,7 @@ times:
             company: Union County College, NJ 
           - name: Dr. Elizabeth Hawthorne
             title: Chair
-            company: ACM Committee for Computing Education in Community Colleges
+            company: "ACM-W and ACM CCECC"
           - name: Ashley Wilson
             title: Co-founder
             company: LexLadiesCode.org
@@ -75,8 +75,8 @@ times:
             title: Director of Marketing
             company: DMD Data Solutions
       
-  - start: 4:00pm
-    end: 4:45pm
+  - start: 4:30pm
+    end: 5:15pm
     sessions:
        - title: TBA
          location: TBA
@@ -92,7 +92,7 @@ times:
          speakers:
            - name: NKU Students
              company: Northern Kentucky University     
-  - start: 4:45pm
+  - start: 5:15pm
     end: 6:00pm
     sessions:
       - title: Vendor Fair, Job Fair, Transfer Fair (Continued)

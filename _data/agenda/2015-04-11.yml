@@ -24,7 +24,7 @@ times:
         speakers:
           - name: Dr. Elizabeth Hawthorne
             title: Chair
-            company: ACM Committee for Computing Education in Community Colleges
+            company: "ACM-W and ACM CCECC"
   - start: 10:00am
     end: 10:35am
     sessions:
