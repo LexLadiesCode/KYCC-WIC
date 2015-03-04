@@ -16,6 +16,9 @@
         <li {% if page.url == "/agenda/" %} class="active" {% endif %}>
           <a href="{{ "/agenda/" | prepend: site.baseurl }}">Agenda</a>
         </li>
+        <li {% if page.url == "/speakers/" %} class="active" {% endif %}>
+          <a href="{{ "/speakers/" | prepend: site.baseurl }}">Speakers</a>
+        </li>
         <li {% if page.url == "/registration/" %} class="active" {% endif %}>
           <a href="{{ "/registration/" | prepend: site.baseurl }}">Registration</a>
         </li>

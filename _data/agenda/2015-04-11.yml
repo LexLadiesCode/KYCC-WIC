@@ -31,7 +31,12 @@ times:
       - title: Building a Community of Women in Computing
         location: TBA
         speakers:
-          - name: LexLadiesCode.org
+          - name: Tanzi Merritt
+            company: LexLadiesCode.org
+          - name: Sarah Vessels
+            company: LexLadiesCode.org
+          - name: Kristen Willey
+            company: LexLadiesCode.org
       - title: TBA
         location: TBA
       - title: Participating in Tech Competitions
@@ -39,7 +44,7 @@ times:
           - name: Teresa Riley
             title: Lecturer
             department: Computer Science
-            company: Northern Kentucky University     
+            company: Northern Kentucky University   
   - start: 10:40am
     end: 11:10am
     sessions:

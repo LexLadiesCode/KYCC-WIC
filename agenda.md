@@ -32,7 +32,13 @@ permalink: /agenda/
                 <h3>{{ session.title }}</h3>                
                 {% for speaker in session.speakers %}
                   <p>
-                    {{ speaker.name }}{% if speaker.title %}, {{ speaker.title }}{% endif %}{% if speaker.department %}, {{ speaker.department }}{% endif %}{% if speaker.company %}, {{ speaker.company }}{% endif %}
+                    {% assign speaker_url = "#" %}
+                    {% for post in site.categories.speakers %}
+                      {% if post.title contains speaker.name %}
+                        {% assign speaker_url = post.url %}
+                      {% endif %}
+                    {% endfor %}
+                    <a href="{{ speaker_url }}">{{ speaker.name }}</a>{% if speaker.title %}, {{ speaker.title }}{% endif %}{% if speaker.department %}, {{ speaker.department }}{% endif %}{% if speaker.company %}, {{ speaker.company }}{% endif %}
                   </p>
                 {% endfor %}
               </div>
