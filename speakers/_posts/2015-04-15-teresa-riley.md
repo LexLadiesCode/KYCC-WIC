@@ -6,6 +6,7 @@ position: Lecturer
 company: Computer Science, Northern Kentucky University 
 session: Participating in Tech Competitions
 sort: 5
+permalink: /speakers/teresa-riley/
 ---
 
 Teresa Riley joined the College of Informatics as an adjunct instructor in October of 2011. She became a full-time instructor in the Fall of 2013.

@@ -6,6 +6,7 @@ position: Principal Networking Policy Strategist
 company: Microsoft Research
 session: A Journey into Technology Policy Research
 sort: a
+permalink: /speakers/sharon-gillett/
 ---
 
 Sharon Gillett is a Principal Networking Policy Strategist with MSR's Mobility and Networking Research Group, where she focuses on connectivity policy and strategy.  She works with researchers, engineers, lawyers and our field organization to develop strategies and public policies that will ensure future connectivity for Microsoft products worldwide, focusing on issues such as network neutrality, universal Internet access, and regulatory treatment of Internet services.

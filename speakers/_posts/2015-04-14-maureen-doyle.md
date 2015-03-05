@@ -6,6 +6,7 @@ position: Associate Professor of Computer Science
 company: Northern Kentucky University
 session: Research Experiences for Undergraduates
 sort: 5
+permalink: /speakers/maureen-doyle/
 ---
 
 Maureen Doyle, an associate professor of computer science, has been with NKU since August 2006. She teaches Software Engineering, Advanced Software Engineering, Object Oriented Programming I,II and the Advanced Programming Workshop.
