@@ -1,0 +1,19 @@
+---
+---
+
+@import "layout";
+@import "bootstrap";
+
+// Color Scheme
+
+$dark-purple: #45145a;
+$electric-purple: #7500a5;
+$light-purple: #7322c8;
+$dark-blue: #3860e0;
+$light-blue: #5bacee;
+$charcoal: #01080F;
+
+body {
+  background-color: $dark-purple;
+  color: #fff;
+}

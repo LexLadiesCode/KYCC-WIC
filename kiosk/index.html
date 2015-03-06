@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>KYCC-WIC 2015</title>
+    <meta name="viewport" content="width=device-width">
+    <script src="/js/node_modules/angular/angular.min.js"></script>
+    <script src="/js/kiosk.js"></script>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/kiosk.css">
+  	<link href="/css/lightbox.css" rel="stylesheet"  />
+  </head>
+  <body ng-app="agendaApp">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" ng-controller="MainController">
+      <g>
+        <circle style="stroke: #ccc; fill: #fff;" cx="100" cy="100" r="100"/>
+        <line x1="100" y1="100" x2="100" y2="50"
+              style="stroke-width: 5px; stroke: #333;"
+              ng-attr-transform="rotate({{hourRotation}} 100 100)" />
+        <line x1="100" y1="100" x2="100" y2="20"
+              style="stroke-width: 3px; stroke: #888;"
+              ng-attr-transform="rotate({{minuteRotation}} 100 100)" />
+        <line x1="100" y1="100" x2="100" y2="5"
+              style="stroke-width: 2px; stroke: #bb0000;"
+              ng-attr-transform="rotate({{secondRotation}} 100 100)" />
+      </g>
+    </svg>
+    
+  	<script src="/js/jquery-1.11.0.min.js"></script>
+  	<script src="/js/bootstrap.min.js"></script>
+    <script src="/js/lightbox.min.js"></script>
+  </body>
+</html>
