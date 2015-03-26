@@ -9,24 +9,25 @@ times:
         speakers:
           - name: Melanie Williamson
             title: Associate Professor
-            department: Computer & Information Technologies
+            department: "Computer & Information Technologies"
             company: Bluegrass Community and Technical College
           - name: Cindy Tucker
             title: Associate Professor
-            department: Computer & Information Technologies
+            department: "Computer & Information Technologies"
             company: Bluegrass Community and Technical College
-            
+
   - start: 9:15am
     end: 10:00am
     sessions:
       - title: "Women in Computing: Transforming the Future"
         location: TBA
         speakers:
-          - name: Dr. Elizabeth Hawthorne
-            title: Chair
-            company: "ACM-W and ACM CCECC"
+          - name: "Dr. Elizabeth Hawthorne"
+            title: "ACM CCECC Chair"
+            company: "ACM-W Council "
+
   - start: 10:00am
-    end: 10:35am
+    end: 10:45am
     sessions:
       - title: Building a Community of Women in Computing
         location: TBA
@@ -37,46 +38,58 @@ times:
             company: LexLadiesCode.org
           - name: Kristen Willey
             company: LexLadiesCode.org
-      - title: TBA
+      - title: "You Play It, Now Build It: A Hands-On Session"
         location: TBA
+        speakers:
+          - name: John Meister
+            title: "Co-founder and Technology Director"
+            company: Super Soul
+          - name: Tim Birch
+            title: Associate Professor
+            company: Bluegrass Community and Technical College
       - title: Participating in Tech Competitions
+        location: TBA
         speakers:
           - name: Teresa Riley
             title: Lecturer
             department: Computer Science
-            company: Northern Kentucky University   
-  - start: 10:40am
-    end: 11:10am
+            company: Northern Kentucky University
+  - start: 11:00am
+    end: 11:45am
     sessions:
-       - title: NASA Kentucky - A Faculty Perspective
-         location: TBA
-         speakers:
-           - name: Faculty
-             company: Bluegrass Community and Technical College
-       - title: NASA Kentucky - A Student Perspective
-         location: TBA
-         speakers:
-           - name: Students
-             company: Bluegrass Community and Technical College
-       - title: Research Experiences for Undergraduates
-         speakers:
-           - name: Dr. Maureen Doyle
-             title: Associate Professor 
-             department: Computer Science
-             company: Northern Kentucky University   
-  - start: 11:15am
-    end: 12:00pm
+      - title: "NASA Kentucky - A Faculty Perspective"
+        location: TBA
+        speakers:
+          - name: Faculty
+            company: Bluegrass Community and Technical College
+      - title: "You Play It, Now Build It (Continued)"
+        location: TBA
+        speakers:
+          - name: John Meister
+            title: Co-founder and Technical Director
+            company: Super Soul
+          - name: Tim Birch
+            title: Associate Professor
+            company: Bluegrass Community and Technical College
+      - title: Research Experiences for Undergraduates
+        speakers:
+          - name: Dr. Maureen Doyle
+            title: Associate Professor
+            department: Computer Science
+            company: Northern Kentucky University
+  - start: 12:00pm
+    end: 12:30pm
     sessions:
       - title: "Women in Computing: Voices in Video"
         location: TBA
         speakers:
           - name: Stephanie Fitch
             title: Coordinator and Assistant Professor
-            department: Film Studies
-            company: Bluegrass Community and Technical College     
-  - start: 12:15pm
-    end: 1:00pm
+            department: Digital Cinematic Arts
+            company: Bluegrass Community and Technical College
+  - start: 12:30pm
+    end: 1:30pm
     sessions:
-      - title: Lunch, Award Winners, and Closing Celebration
-        subtitle: Presentations and Awards
+      - title: "Lunch, Award Winners, and Closing Celebration"
+        subtitle: Presentation and Awards
         location: TBA

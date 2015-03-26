@@ -66,8 +66,8 @@ times:
             department: Psychology/Sociology
             company: Union County College, NJ 
           - name: Dr. Elizabeth Hawthorne
-            title: Chair
-            company: "ACM-W and ACM CCECC"
+            title: "ACM CCECC Chair"
+            company: "ACM-W Council "
           - name: Ashley Wilson
             title: Co-founder
             company: LexLadiesCode.org
@@ -80,12 +80,10 @@ times:
     sessions:
        - title: TBA
          location: TBA
-       - title: The Gaming Industry in Kentucky
-         locaton: TBA
+       - title: NASA Kentucky - A Student Perspective
+         location: TBA
          speakers:
-           - name: Tim Birch
-             title: Assistant Professor
-             department: Information Management Design
+           - name: BCTC Students
              company: Bluegrass Community and Technical College
        - title: Attending the National Grace Hopper Conference
          locaton: TBA
@@ -112,6 +110,6 @@ times:
   - start: 7:00pm
     end: 10:00pm
     sessions:
-      - title: "You Play It, Now Build It: A Hands-on Interactive Session"
+      - title: "Friday Fun"
         location: TBA
      
