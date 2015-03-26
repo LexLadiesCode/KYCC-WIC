@@ -1,12 +1,13 @@
 ---
 layout: speaker_layout
-title: Kristen Willey
-name: Willey, Kristen
-position: 
-company: LexLadiesCode
+title: Summer Smith
+name: Smith, Summer
+position: Programmer
+company: CirrusMio
 session: 
 sort: 6
-permalink: /speakers/kristen-willey/
+permalink: /speakers/summer-smith/
 ---
 
-Kristen graduated from the University of Kentucky with a B.A. in Elementary Education and a M.S. in Library Science. She currently works at William T. Young Library in Federal Documents. Kristen is having a wonderful time learning to code with the fantastic ladies of LexLadiesCode.
+Summer is a programmer at Cirrus Mio here in Lexington, her hometown. She returned in 2010 after graduating with her M.S. from Georgia Regents University (2010) and her B.F.A. from the Maryland Institute College of Art (2008). She’s excited to use coding to explore the intersection of art and technology.
+
