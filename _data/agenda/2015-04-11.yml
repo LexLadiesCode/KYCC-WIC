@@ -1,11 +1,23 @@
 date: 2015-04-11
 readable-date: Saturday, April 11, 2015
 times:
-  - start: 8:30am
+  - start: 8:00am
+    end: 8:45am
+    sessions:
+      - title: Breakfast and Greetings, Special Coffee Kiosk
+        location: Second Floor Lobby
+
+  - start: 8:45am
     end: 9:00am
     sessions:
-      - title: Breakfast and Greetings, Special Coffee Kiosk, Welcome
-        location: TBA
+      - title: Group Photo
+        location: Stairs into the Academic Building 
+        
+  - start: 9:00am
+    end: 9:15am
+    sessions:
+      - title: Welcome to the Second Day
+        location: Second Floor Lobby        
         speakers:
           - name: Melanie Williamson
             title: Associate Professor
@@ -20,7 +32,7 @@ times:
     end: 10:00am
     sessions:
       - title: "Women in Computing: Transforming the Future"
-        location: TBA
+        location: Second Floor Lobby
         speakers:
           - name: "Dr. Elizabeth Hawthorne"
             title: "ACM CCECC Chair"
@@ -30,7 +42,7 @@ times:
     end: 10:45am
     sessions:
       - title: Building a Community of Women in Computing
-        location: TBA
+        location: Room 211
         speakers:
           - name: Tanzi Merritt
             company: LexLadiesCode.org
@@ -39,7 +51,7 @@ times:
           - name: Kristen Willey
             company: LexLadiesCode.org
       - title: "You Play It, Now Build It: A Hands-On Session"
-        location: TBA
+        location: Room 223
         speakers:
           - name: John Meister
             title: "Co-founder and Technology Director"
@@ -48,22 +60,23 @@ times:
             title: Associate Professor
             company: Bluegrass Community and Technical College
       - title: Participating in Tech Competitions
-        location: TBA
+        location: Room 212
         speakers:
           - name: Teresa Riley
             title: Lecturer
             department: Computer Science
             company: Northern Kentucky University
+            
   - start: 11:00am
     end: 11:45am
     sessions:
       - title: "NASA Kentucky - A Faculty Perspective"
-        location: TBA
+        location: Room 211
         speakers:
-          - name: Faculty
+          - name: Tammy Liles
             company: Bluegrass Community and Technical College
       - title: "You Play It, Now Build It (Continued)"
-        location: TBA
+        location: Room 223
         speakers:
           - name: John Meister
             title: Co-founder and Technical Director
@@ -72,16 +85,39 @@ times:
             title: Associate Professor
             company: Bluegrass Community and Technical College
       - title: Research Experiences for Undergraduates
+        location: Room 212
         speakers:
           - name: Dr. Maureen Doyle
             title: Associate Professor
             department: Computer Science
             company: Northern Kentucky University
+      - title: NASA Kentucky - A Student Perspective
+        location: Room 210
+        speakers: 
+          - name: Sarah Abuonk
+            title: Computer & Information Technologies, Student
+            company: Bluegrass Community and Technical College
+          - name: John Butler
+            title: Computer & Information Technologies, Student
+            company: Bluegrass Community and Technical College
+          - name: Thomas Iorio
+            title: Computer & Information Technologies, Student
+            company: Bluegrass Community and Technical College
+          - name: Courtney Speaks
+            title: Computer & Information Technologies, Student
+            company: Bluegrass Community and Technical College
+          - name: Charles Standafer
+            title: Computer & Information Technologies, Student
+            company: Bluegrass Community and Technical College
+          - name: Crystal Wicks
+            title: Computer & Information Technologies, Student
+            company: Bluegrass Community and Technical College
+            
   - start: 12:00pm
     end: 12:30pm
     sessions:
       - title: "Women in Computing: Voices in Video"
-        location: TBA
+        location: Room 050
         speakers:
           - name: Stephanie Fitch
             title: Coordinator and Assistant Professor
@@ -92,4 +128,4 @@ times:
     sessions:
       - title: "Lunch, Award Winners, and Closing Celebration"
         subtitle: Presentation and Awards
-        location: TBA
+        location: Second Floor Lobby
