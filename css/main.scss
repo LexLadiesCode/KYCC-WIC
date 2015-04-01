@@ -166,6 +166,17 @@ $charcoal: #01080F;
         line-height: 28px;
       }
     }
+    .speaker {
+      margin: 5px;
+      margin-bottom: 10px;
+      .title, .company {
+        display: block;
+        margin: 2px;
+      }
+      .company {
+        font-weight: 500;
+      }
+    }
     .col-md-10 {
       border-top: 28px solid #000;
       .row {
