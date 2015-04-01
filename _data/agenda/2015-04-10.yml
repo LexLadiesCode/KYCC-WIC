@@ -109,7 +109,7 @@ times:
     end: 6:00pm
     sessions:
       - title: Vendor Fair, Job Fair, Transfer Fair (Continued)
-        sub-title: "Student Posters Available for Viewing and Judging / Recording 'Voices in Video'"
+        subtitle: "Student Posters Available for Viewing and Judging, Recording 'Voices in Video'"
       - title: "'Mocktail' Hour "
         location: Second floor
         
@@ -117,7 +117,7 @@ times:
     end: 7:00pm
     sessions:
       - title: Dinner
-        sub-title: "Catered by Winchell's Restaurant"
+        subtitle: "Catered by Winchell's Restaurant"
         location: "Rooms 105 - 107"
          
   - start: 7:00pm
