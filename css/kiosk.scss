@@ -15,7 +15,12 @@ $charcoal: #01080F;
 
 body {
   background-color: $dark-purple;
-  color: #fff;
+  padding: 40px;
+}
+
+#agenda {
+  background-color: #fff;
+  padding: 20px;
 }
 
 #clock {
@@ -35,4 +40,8 @@ body {
     stroke-width: 2px;
     stroke: #bb0000;
   }
+}
+
+#current-session {
+
 }

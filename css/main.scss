@@ -167,7 +167,6 @@ $charcoal: #01080F;
       }
     }
     .col-md-10 {
-      border-top: 28px solid #000;
       .row {
         border-left: 0px;
         .col-md-4 {
@@ -202,6 +201,15 @@ $charcoal: #01080F;
     }
   }
 }
+@media (min-width: $screen-md-min) {
+  #agenda {
+    .row {
+      .col-md-10 {
+        border-top: 28px solid #000;
+      }
+    }
+  }
+}
 /* Content Styles */
 #content h1,h2,{
   color: $dark-purple;
@@ -227,12 +235,12 @@ $charcoal: #01080F;
   #footer-top {
     min-height: 150px;
     background-color: $electric-purple;
-    div {  
+    div {
       display: inline-block;
       img {
-        padding: 20px;      
+        padding: 20px;
       }
-    }  
+    }
   }
   #footer-bottom {
     height: 150px;
