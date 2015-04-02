@@ -61,9 +61,9 @@
     var sessions = $('#current-session .session');
     var startTimes = getStartTimes(sessions);
     var endTimes = getEndTimes(sessions);
-    console.log(startTimes, endTimes);
-    // setInterval(function() {
+    updateCurrentSession(startTimes, endTimes);
+    setInterval(function() {
       updateCurrentSession(startTimes, endTimes);
-    // }, 1000);
+    }, 1000 * 60);
   });
 })(jQuery);
