@@ -15,16 +15,55 @@ $charcoal: #01080F;
 
 body {
   background-color: $dark-purple;
-  padding: 40px;
+  padding: $line-height-computed * 2;
 }
 
 #agenda {
-  background-color: #fff;
-  padding: 20px;
+  .agenda-day {
+    background-color: #fff;
+    padding: $line-height-computed;
+
+    h3.agenda-date {
+      margin-top: 0;
+      margin-bottom: $line-height-computed;
+    }
+
+    & + .agenda-day {
+      margin-top: $line-height-computed * 2;
+    }
+  }
 }
+
+$clock-height: 200px;
 
 #clock {
   display: none;
+  text-align: center;
+  height: $clock-height;
+  margin-bottom: $line-height-computed * 2;
+
+  #current-time-wrapper {
+    float: right;
+    color: #fff;
+    margin: 0 $line-height-computed * 2;
+
+    span {
+      line-height: $clock-height / 2;
+      display: block;
+
+      &#current-date {
+        margin-top: 25px;
+      }
+
+      &#current-time {
+        margin-top: -50px;
+      }
+    }
+  }
+
+  svg {
+    float: left;
+  }
 
   line.hour {
     stroke-width: 5px;

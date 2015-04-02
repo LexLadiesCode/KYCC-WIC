@@ -13,6 +13,8 @@
     hourLine.attr('transform', hourTransform);
     minuteLine.attr('transform', minuteTransform);
     secondLine.attr('transform', secondTransform);
+    $('#current-date').text(moment().format('MMMM Do'));
+    $('#current-time').text(moment().format('h:mm:ss a'));
   }
 
   $(function() {
