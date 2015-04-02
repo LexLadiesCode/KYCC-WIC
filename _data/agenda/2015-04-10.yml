@@ -4,27 +4,27 @@ times:
   - start: 10:00am
     end: 11:00am
     sessions:
-      - title: Setup for Vendor Fair, Job Fair, Transfer Fair
-        location: TBA
+      - title: "Setup for Vendor Fair, Job Fair, Transfer Fair"
+        location: Check in at the Registration Table
     
   - start: 11:00am
     end: 1:00pm
     sessions:
       - title: Vendor Fair, Job Fair, Transfer Fair
-        subtitle: Recording "Voices in Video"
-        location: TBA
+        subtitle: "Recording 'Voices in Video'"
+        location: Check in at the Registration Table
     
   - start: 11:30am
     end: 1:00pm
     sessions:
       - title: Registration
-        location: TBA
+        location: Second Floor Lobby Area
     
   - start: 1:00pm
     end: 1:30pm
     sessions:
       - title: Welcome to KYCC-WiC
-        location: TBA
+        location: "Rooms 105 - 107"
         speakers:
           - name: Melanie Williamson
             title: Associate Professor
@@ -39,7 +39,7 @@ times:
     end: 2:15pm
     sessions:
       - title: A Journey into Technology Policy Research
-        location: TBA
+        location: "Rooms 105 - 107"
         speakers: 
           - name: Sharon Gillett
             title: Principal Networking Policy Strategist
@@ -49,69 +49,80 @@ times:
     end: 3:15pm
     sessions:
       - title: "Gender at Work: Authority and Technology"
-        location: TBA
+        location: "Rooms 105 - 107"
         speakers:
-        - name: Dr. Rama Lohani-Chase
+        - name: "Dr. Rama Lohani-Chase"
           title: Professor of Psychology/Sociology
           company: "Union County College, NJ - Sponsored by ACM CCECC"
-    
+ 
   - start: 3:30pm
     end: 4:15pm
     sessions:
       - title: Imposter Syndrome Panel
-        location: TBA
+        location: "Rooms 105 - 107"
         speakers:
-          - name: Dr. Rama Lohani-Chase
+          - name: "Dr. Rama Lohani-Chase"
             title: Professor
             department: Psychology/Sociology
             company: Union County College, NJ 
           - name: Dr. Elizabeth Hawthorne
-            title: Chair
-            company: "ACM-W and ACM CCECC"
+            title: "ACM CCECC Chair"
+            company: "ACM-W Council"
+          - name: Lynne Miller
+            title: Software Staff, Integrated Defense Systems
+            company: Raytheon
           - name: Ashley Wilson
-            title: Co-founder
+            title: "Co-founder"
             company: LexLadiesCode.org
           - name: Amy Smereck
             title: Director of Marketing
             company: DMD Data Systems
-      
+            
   - start: 4:30pm
-    end: 5:15pm
+    end: 5:15pm  
     sessions:
-       - title: TBA
-         location: TBA
-       - title: The Gaming Industry in Kentucky
-         locaton: TBA
-         speakers:
-           - name: Tim Birch
-             title: Assistant Professor
-             department: Information Management Design
-             company: Bluegrass Community and Technical College
-       - title: Attending the National Grace Hopper Conference
-         locaton: TBA
-         speakers:
-           - name: NKU Students
-             company: Northern Kentucky University     
+      - title: Hosting an Hour of Code and Recruiting
+        location: Room 209
+        speakers:
+          - name: Melanie Williamson
+            title: Associate Professor
+            department: Computer & Information Technologies
+            company: Bluegrass Community and Technical College
+          - name: Cindy Tucker
+            title: Associate Professor
+            department: Computer & Information Technologies
+            company: Bluegrass Community and Technical College
+      - title: Attending the National Grace Hopper Conference
+        location: Room 211
+        speakers:
+         - name: NKU Students
+           company: Northern Kentucky University
+      - title: Looking into Windows 10
+        location: Room 210
+        speakers:
+          - name: Dana Brown
+            title: Associate Professor
+            department: Computer & Information Technologies
+            company: Bluegrass Community and Technical College 
+            
   - start: 5:15pm
     end: 6:00pm
     sessions:
       - title: Vendor Fair, Job Fair, Transfer Fair (Continued)
-        sub-title: Student Posters Available for Viewing/Judging
-        sub-title: Recording "Voices in Video"
+        subtitle: "Student Posters Available for Viewing and Judging, Recording 'Voices in Video'"
+      - title: "'Mocktail' Hour "
+        location: Second floor
+        
   - start: 6:00pm
     end: 7:00pm
     sessions:
       - title: Dinner
-        sub-title: "Catered by Joe Bologna's"
-        location: TBA        
-  - start: 7:00pm
-    end: 8:00pm
-    sessions:
-      - title: "“Mocktail” Hour for Faculty and Industry: Sharing Ideas and Building Community"
-        location: TBA
+        subtitle: "Catered by Winchell's Restaurant"
+        location: "Rooms 105 - 107"
+         
   - start: 7:00pm
     end: 10:00pm
     sessions:
-      - title: "You Play It, Now Build It: A Hands-on Interactive Session"
-        location: TBA
+      - title: "Friday Fun"
+        location: Second floor labs
      
