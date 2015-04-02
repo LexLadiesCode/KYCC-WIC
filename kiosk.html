@@ -17,9 +17,22 @@ permalink: /kiosk/
     <span id="current-time"></span>
   </h2>
 </div>
-<div id="current-session">
-</div>
 <div id="agenda">
+  <div id="current-session">
+    <h2 id="current-session-header">Current Session:</h2>
+    {% for agenda_hash in site.data.agenda %}
+      {% assign agenda = agenda_hash[1] %}
+      {% for times in agenda.times %}
+        <div class="session" data-time-start="{{ times.start }}" data-time-end="{{ times.end }}">
+          <div class="row">
+            <div class="time col-md-2">
+              <p>{{ times.start }} to {{ times.end }}</p>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    {% endfor %}
+  </div>
   {% for agenda_hash in site.data.agenda %}
     {% assign agenda = agenda_hash[1] %}
     <div class="agenda-day">
@@ -31,7 +44,7 @@ permalink: /kiosk/
 
       {% for times in agenda.times %}
         <div class="row">
-          <div id="time" class="col-md-2">
+          <div class="time col-md-2">
             <p>{{ times.start }} to {{ times.end }}</p>
           </div>
           <div class="col-md-10">

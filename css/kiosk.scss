@@ -82,5 +82,14 @@ $clock-height: 200px;
 }
 
 #current-session {
+  margin-bottom: $line-height-computed * 2;
 
+  .session {
+    display: none;
+  }
+
+  #current-session-header {
+    color: #fff;
+    text-align: left;
+  }
 }

@@ -17,9 +17,53 @@
     $('#current-time').text(moment().format('h:mm:ss a'));
   }
 
+  function getStartTimes(sessions) {
+    var startTimes = [];
+    for (var i=0; i<sessions.length; i++) {
+      startTimes.push($(sessions[i]).attr('data-time-start'));
+    }
+    return startTimes;
+  }
+
+  function getEndTimes(sessions) {
+    var endTimes = [];
+    for (var i=0; i<sessions.length; i++) {
+      endTimes.push($(sessions[i]).attr('data-time-end'));
+    }
+    return endTimes;
+  }
+
+  function updateCurrentSession(startTimes, endTimes) {
+    $('#current-session .session').hide();
+    var curTime = new Date();
+    var sessionStartTime = false, sessionEndTime = false;
+    for (var i=0; i<startTimes.length; i++) {
+      var startTime = moment(startTimes[i], 'h:mma').toDate();
+      var endTime = moment(endTimes[i], 'h:mma').toDate();
+      if (startTime <= curTime && curTime < endTime) {
+        sessionStartTime = startTimes[i];
+        sessionEndTime = endTimes[i];
+      }
+    }
+    if (sessionStartTime && sessionEndTime) {
+      var startSelector = '[data-time-start="' + sessionStartTime + '"]';
+      var endSelector = '[data-time-end="' + sessionEndTime + '"]';
+      var session = $('#current-session .session' + startSelector + endSelector);
+      session.show();
+    }
+  }
+
   $(function() {
     updateClock();
     $('#clock').show();
     setInterval(updateClock, 1000);
+
+    var sessions = $('#current-session .session');
+    var startTimes = getStartTimes(sessions);
+    var endTimes = getEndTimes(sessions);
+    console.log(startTimes, endTimes);
+    // setInterval(function() {
+      updateCurrentSession(startTimes, endTimes);
+    // }, 1000);
   });
 })(jQuery);
