@@ -1,14 +1,23 @@
-(function() {
-  angular.module('agendaApp', [])
-  .controller('MainController', function($scope, $interval) {
+(function($) {
+  function updateClock() {
+    var hourLine = $('line.hour');
+    var minuteLine = $('line.minute');
+    var secondLine = $('line.second');
+    var now = new Date();
+    var hourRotation = 360 * now.getHours() / 12;
+    var minuteRotation = 360 * now.getMinutes() / 60;
+    var secondRotation = 360 * now.getSeconds() / 60;
+    var hourTransform = 'rotate(' + hourRotation + ' 100 100)';
+    var minuteTransform = 'rotate(' + minuteRotation + ' 100 100)';
+    var secondTransform = 'rotate(' + secondRotation + ' 100 100)';
+    hourLine.attr('transform', hourTransform);
+    minuteLine.attr('transform', minuteTransform);
+    secondLine.attr('transform', secondTransform);
+  }
 
-    function calculateRotation() {
-      var now = new Date();
-      $scope.hourRotation   = 360 * now.getHours()   / 12;
-      $scope.minuteRotation = 360 * now.getMinutes() / 60;
-      $scope.secondRotation = 360 * now.getSeconds() / 60;
-    }
-    $interval(calculateRotation, 1000); 
-    calculateRotation();
+  $(function() {
+    updateClock();
+    $('#clock').show();
+    setInterval(updateClock, 1000);
   });
-})();
+})(jQuery);

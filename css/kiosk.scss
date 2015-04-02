@@ -17,3 +17,22 @@ body {
   background-color: $dark-purple;
   color: #fff;
 }
+
+#clock {
+  display: none;
+
+  line.hour {
+    stroke-width: 5px;
+    stroke: #333;
+  }
+
+  line.minute {
+    stroke-width: 3px;
+    stroke: #888;
+  }
+
+  line.second {
+    stroke-width: 2px;
+    stroke: #bb0000;
+  }
+}
