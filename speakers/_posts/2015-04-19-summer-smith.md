@@ -2,8 +2,8 @@
 layout: speaker_layout
 title: Summer Smith
 name: Smith, Summer
-position: Programmer
-company: CirrusMio
+position: Co-founder
+company: LexLadiesCode
 session: 
 sort: 6
 permalink: /speakers/summer-smith/

@@ -2,7 +2,7 @@
 layout: speaker_layout
 title: Sarah Vessels
 name: Vessels, Sarah
-position: 
+position: Co-founder
 company: LexLadiesCode
 session: 
 sort: 6
