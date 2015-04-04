@@ -1,0 +1,95 @@
+---
+---
+
+@import "layout";
+@import "bootstrap";
+
+// Color Scheme
+
+$dark-purple: #45145a;
+$electric-purple: #7500a5;
+$light-purple: #7322c8;
+$dark-blue: #3860e0;
+$light-blue: #5bacee;
+$charcoal: #01080F;
+
+body {
+  background-color: $dark-purple;
+  padding: $line-height-computed * 2;
+}
+
+#agenda {
+  .agenda-day {
+    background-color: #fff;
+    padding: $line-height-computed;
+
+    h3.agenda-date {
+      margin-top: 0;
+      margin-bottom: $line-height-computed;
+    }
+
+    & + .agenda-day {
+      margin-top: $line-height-computed * 2;
+    }
+  }
+}
+
+$clock-height: 200px;
+
+#clock {
+  display: none;
+  text-align: center;
+  height: $clock-height;
+  margin-bottom: $line-height-computed * 2;
+
+  #current-time-wrapper {
+    float: right;
+    color: #fff;
+    margin: 0 $line-height-computed * 2;
+
+    span {
+      line-height: $clock-height / 2;
+      display: block;
+
+      &#current-date {
+        margin-top: 25px;
+      }
+
+      &#current-time {
+        margin-top: -50px;
+      }
+    }
+  }
+
+  svg {
+    float: left;
+  }
+
+  line.hour {
+    stroke-width: 5px;
+    stroke: #333;
+  }
+
+  line.minute {
+    stroke-width: 3px;
+    stroke: #888;
+  }
+
+  line.second {
+    stroke-width: 2px;
+    stroke: #bb0000;
+  }
+}
+
+#current-session {
+  margin-bottom: $line-height-computed * 2;
+
+  .session {
+    display: none;
+  }
+
+  #current-session-header {
+    color: #fff;
+    text-align: left;
+  }
+}
